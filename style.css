@@ -1,0 +1,163 @@
+/* main style */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(194, 191, 191);
+    align-items: center;
+    padding: 30px 30px;
+}
+
+/* .container {
+    display: flex;
+} */
+.container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+
+}
+
+/* !....header-style....! */
+span {
+    color: rgb(252, 16, 8);
+}
+
+.header-style {
+    background: #161616;
+    height: 450px;
+    width: 1280px;
+    border-radius: 30px;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    padding-bottom: 5%;
+}
+
+h1 {
+    font-size: 32px;
+    color: white;
+    padding-top: 35px;
+    padding-left: 50px;
+}
+
+.first-para {
+    font-size: 16px;
+    color: white;
+    padding-left: 50px;
+}
+
+.anchor-style {
+    margin-left: 50px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(240, 6, 6);
+    border-radius: 5px;
+    padding: 10px 12px;
+}
+
+.image-part {
+    margin-top: 8%;
+    height: 400px;
+    width: 700px;
+    margin-left: 50px;
+}
+
+/* !......side-box style.....! */
+.side-box {
+    background: #161616;
+    height: 240px;
+    width: 250px;
+    border-radius: 8px;
+    margin-left: 7%;
+    margin-top: 6%;
+
+}
+
+.second-anchor {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-top: 3%;
+    margin-right: 5%;
+}
+
+/* hover */
+.second-anchor:hover {
+    background-color: rgb(224, 8, 8);
+}
+
+.third-anchor {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 8px 42px;
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-right: 5%;
+
+}
+
+.Fourth-anchor {
+    background-color: red;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    margin-left: 30px;
+    padding: 8px 20px;
+    margin-right: 5%;
+}
+
+/* section two */
+.image-style {
+    width: 260px;
+    height: 210px;
+    border-radius: 5px;
+}
+
+/* <!-- <div class="transfer-box"></div> --> */
+.transfer-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+h5 {
+    color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 33px;
+    width: 32%;
+    margin-left: 12px;
+    padding-left: 25px;
+    padding-top: 10px;
+    background-color: rgb(218, 9, 9)
+}
+
+.margin-transfer {
+    margin-left: 15px;
+
+}
+
+/* footer part */
+
+footer {
+    background-color: #161616;
+    height: 300px;
+    text-align: center;
+    padding-top: 90px;
+}
+
+h6 {
+    color: white;
+}
+
+p {
+    color: white;
+
+}
+
+.fa-brands {
+    color: white;
+}
