@@ -63,17 +63,19 @@ h1 {
 /* !......side-box style.....! */
 .side-box {
     background: #161616;
-    height: 300px;
-    width: 280px;
+    height: 320px;
+    width: 290px;
     border-radius: 8px;
     margin-left: 7%;
-    margin-top: 5%;
+    margin-top: 6%;
 
 
 }
 
-.flag-flex {
-    display: flex
+.image-container {
+    display: flex;
+    margin-right: 10px;
+
 }
 
 .second-anchor {
@@ -107,13 +109,6 @@ h1 {
     margin-right: 5%;
 }
 
-.image-container {
-    display: flex;
-    background-color: rgb(255, 255, 255);
-
-}
-
-
 /* section two */
 .image-style {
     width: 260px;
@@ -124,9 +119,11 @@ h1 {
 /* <!-- <div class="transfer-box"></div> --> */
 .transfer-box {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-left: 20px;
     margin-top: 75px;
+
+
 
 }
 
@@ -167,4 +164,17 @@ p {
 
 .fa-brands {
     color: white;
+}
+
+.image-container {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+.vs-align {
+    margin-top: 95px;
+}
+
+h3 {
+    padding-left: 35%;
 }
